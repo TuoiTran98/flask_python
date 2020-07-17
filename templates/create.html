@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FaceDetection</title>
+    <script language="JavaScript" type="text/javascript" src="/static/jquery-3.5.1.min.js"></script>
+    <script src="/static/create.js"></script>
+  </head>
+ 
+  <body>
+    <style>
+      
+      @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+      @import url(https://fonts.googleapis.com/css?family=Comfortaa);
+          body {
+                padding-top: 40px;
+                padding-bottom: 40px;
+              }
+          
+          .form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+          }
+          .form-signin .form-signin-heading,
+          .form-signin .checkbox {
+            margin-bottom: 10px;
+          }
+          .form-signin .checkbox {
+            font-weight: normal;
+          }
+          .form-signin .form-control {
+            position: relative;
+            height: auto;
+            -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+          }
+          .form-signin .form-control:focus {
+            z-index: 2;
+          }
+          .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+          .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+          }
+          .btn{
+            margin-left: 20px;
+          }
+          .title{
+            font-size: 30px;
+            color: blue;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+          }
+          .title-a{
+            color: white;
+            
+          }
+          .title-a:hover{
+            color: white;
+            text-decoration: none;
+          }
+
+    </style>
+    
+        <form class="form-signin">
+          
+          <h3 class="title">Thông Tin Cá Nhân</h3>
+            <label for="inputName" class="sr-only">ID</label>
+            <input type="name" name="id" id="id" class="form-control" placeholder="ID" required autofocus>
+            <br>
+            <label for="inputEmail" class="sr-only">Name</label>
+            <input type="name" name="name" id="name" class="form-control" placeholder="Họ Tên" required autofocus>
+            <br>
+            <label for="inputPassword" class="sr-only">Gender</label>
+            <input type="name" name="gender" id="gender" class="form-control" placeholder="Giới Tính" required autofocus> 
+            <br>
+            <label for="inputPassword" class="sr-only">Date Of Birth</label>
+            <input type="name" name="dateofbirth" id="dateofbirth" class="form-control" placeholder="Năm Sinh" required autofocus>
+            <br>
+            <label for="inputPassword" class="sr-only">Phone Number</label>
+            <input type="name" name="phonenumber" id="phonenumber" class="form-control" placeholder="Số Điện Thoại" required autofocus>
+            <br>
+              <button id="btnSignUp" class="btn btn-primary" type="button"><a class="title-a" href="/getdata">Tạo Người Mới</a></button>
+              <button  class="btn btn-danger"  type="button"><a class="title-a" href="/">Quay về</a></button>
+            
+         </form>
+    </div>
+  </body>
+</html>
